@@ -1,0 +1,164 @@
+.jobs-main {
+  padding: 20px;
+  display: flex;
+
+  background-color: black;
+  min-height: 90vh;
+  height: 100%;
+}
+.jobs-part1 {
+  width: 30%;
+  padding: 30px;
+}
+.jobs-part2 {
+  max-width: 70%;
+  margin: 30px;
+}
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 200px;
+
+  padding: 10px;
+  background-size: cover;
+}
+.profile img {
+  height: 50px;
+}
+.profile h1 {
+  color: #6366f1;
+  margin: 5px 0px 5px 0px;
+}
+.profile p {
+  color: black;
+  margin-bottom: 5px;
+}
+li {
+  list-style: none;
+}
+hr {
+  color: #2c364c;
+}
+.filter-heading {
+  font-weight: bolder;
+}
+.searchbar {
+  margin-bottom: 20px;
+  display: flex;
+}
+.search-button {
+  width: 50px;
+  border: 1px solid #2c364c;
+  border-left: 0px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #3c3f44;
+}
+.search {
+  background-color: transparent;
+  border: 1px solid #2c364c;
+  border-right: 0px;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  padding-left: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.jobs {
+  background-color: #3c3f44;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.job-img {
+  display: flex;
+  margin-bottom: 20px;
+}
+.job-img img {
+  height: 80px;
+}
+.job-details {
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.internship {
+  margin-left: 5px;
+}
+.description {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.rating-container {
+  display: flex;
+  justify-content: center;
+
+  width: 100px;
+}
+.rating-icon {
+  fill: yellow;
+  margin-right: 10px;
+  margin-top: 17px;
+}
+.rating {
+  padding-bottom: 20px;
+}
+.job-title {
+  margin-left: 20px;
+
+  font-weight: bolder;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs {
+  height: 300px;
+}
+.failure-img {
+  height: 300px;
+}
+.retry-btn {
+  background-color: #6366f1;
+  border: 0px solid;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .jobs-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .jobs-part1 {
+    width: 100%;
+  }
+  .jobs-part2 {
+    width: 100%;
+  }
+  .failure-img {
+    height: 150px;
+  }
+  .no-jobs {
+    height: 150px;
+  }
+  .jobs {
+    width: 300px;
+  }
+}

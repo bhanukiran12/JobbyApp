@@ -1,0 +1,106 @@
+.similarjobs-main {
+  background-color: black;
+  min-height: 90vh;
+  height: 100%;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.failureview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: black;
+}
+
+.failureview img {
+  height: 300px;
+}
+.job {
+  padding: 20px;
+  background-color: #3c3f44;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.skills p {
+  font-weight: bolder;
+  margin: 10px 0px 10px 0px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  margin: 0px 20px 20px 0px;
+}
+.skill img {
+  height: 50px;
+  margin-right: 10px;
+}
+.company-life {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.company-life-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company-description {
+  width: 65%;
+  margin-right: 20px;
+}
+.company-life-container img {
+  height: 200px;
+}
+.similar-jobs {
+  background-color: #3c3f44;
+  border-radius: 10px;
+  margin: 10px 30px 20px 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+}
+.bottom {
+  align-self: flex-end;
+}
+.similar-jobs-container {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 20px 20px 0px;
+  flex-wrap: wrap;
+}
+.similarjobs-title {
+  font-weight: bolder;
+  margin: 20px 0px 20px 0px;
+}
+.visit {
+  text-decoration: underline;
+  color: blue;
+}
+@media (max-width: 768px) {
+  .company-life-container img {
+    height: 150px;
+  }
+  .bottom {
+    align-self: auto;
+  }
+  .similar-jobs {
+    height: 600px;
+  }
+}

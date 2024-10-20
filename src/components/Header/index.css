@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c364c;
+  padding: 0px 20px 0px 20px;
+  min-height: 10vh;
+}
+.header img {
+  height: 30px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items li {
+  list-style: none;
+  color: white;
+  margin-right: 10px;
+}
+.logout {
+  background-color: #4f46e5;
+  height: 30px;
+  width: 70px;
+  border: 0px solid;
+  border-radius: 5px;
+}
+.no-line {
+  text-decoration: none;
+}
